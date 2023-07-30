@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    background-color: gray;
+}
+header h2 {
+    max-width: fit-content;
+    margin: auto;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li{
+    max-width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    background-color: aqua;
+}
+main ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main ul li {
+    width: fit-content;
+    margin: auto;
+    /*position: relative;
+    top: 500px;
+    left: -35px;*/
+    list-style-type: none;
+    background-color: aqua;
+}

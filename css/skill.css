@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:blue;
+    text-align: center;
+}
+ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul li {
+    width: fit-content;
+    margin: auto;
+    /*position: relative;
+    top: 500px;
+    left: -35px;*/
+    list-style-type: none;
+    background-color: aqua;
+}
