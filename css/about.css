@@ -7,22 +7,43 @@ body {
 header {
     position: fixed;
     width: 100%;
-    padding: 1%;
+    padding: 2%;
     background-color: gray;
     z-index: 99;
 }
 header h2 {
     max-width: fit-content;
     margin: auto;
+    font-size: 30px;
 }
 header nav ul {
     display: flex;
+    margin-top: 1%;
+    background-color: gray;
 }
 header nav ul li{
     max-width: fit-content;
     margin: auto;
     list-style-type: none;
-    background-color: aqua;
+    background-color: grey;
+}
+header .title a:visited{
+    color: aqua;
+}
+header .title a:hover {
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
 }
 
 ul {
@@ -58,6 +79,7 @@ img {
 }
 main {
     padding-top: 70px;
+    font-size: 30px;
 }
 .content-box2  {
     width: auto;
@@ -65,4 +87,15 @@ main {
 }
 .content-box2 .content1 {
     padding: 20px;
+}
+.content-box h1 {
+    font-size: 40px;
+}
+.content-box p {
+    font-size: 25px;
+}
+.photo-box {
+    width: 70%;
+    position: relative;
+    left: 15%;
 }
