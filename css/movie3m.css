@@ -9,6 +9,7 @@ header {
     width: 100%;
     padding: 1%;
     background-color: gray;
+    z-index: 99;
 }
 header h2 {
     max-width: fit-content;
@@ -62,25 +63,15 @@ main {
     width: 100%;
     display: flex;
     position: relative;
-    top: 75px;
+    top: 100px;
     height: 667px;
     background-color: blue;
 }
-.photo-box-movie3m{
-    width: 30%;
+.photo-box video{
+    width: 60%;
     height: 50%;
     padding: 10px;
     position: relative;
-    top: 30%;
-    left: 10%;
+    left: 19%;
     background-color: aqua;
-}
-.photo-box-motion{
-    width: 30%;
-    height: 50%;
-    padding: 10px;
-    position: relative;
-    top: 30%;
-    left: 30%;
-    background-color: green;
 }

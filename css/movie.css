@@ -72,7 +72,7 @@ main {
     padding: 10px;
     position: relative;
     top: 30%;
-    left: 10%;
+    left: 5%;
     background-color: aqua;
 }
 .photo-box-motion{
@@ -81,6 +81,6 @@ main {
     padding: 10px;
     position: relative;
     top: 30%;
-    left: 30%;
+    left: 27%;
     background-color: green;
 }

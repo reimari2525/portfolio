@@ -24,7 +24,14 @@ header nav ul li{
     list-style-type: none;
     background-color: aqua;
 }
-
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:blue;
+    text-align: center;
+}
 ul {
     width: 100%;
     height: auto;
@@ -44,10 +51,6 @@ ul li {
     list-style-type: none;
     background-color: aqua;
 }
-.content-box {
-    max-width: 100%;
-    text-align: center;
-}
 img {
     max-width: 100%;
     height: auto;
@@ -56,41 +59,22 @@ main {
     width: 100%;
     display: flex;
     position: relative;
-    top: 75px;
-    height: 600px;
+    top: 100px;
+    height: 667px;
     background-color: blue;
 }
-.photo-box-uma{
-    width: 30%;
-    position: relative;
-    height: 200px;
-    top: 15%;
-    left: 8%;
-} 
-.photo-box-uma .uma1 {
-    width: 80%;
+.photo {
+    text-align: center;
 }
-.photo-box-graph{
-    width: 25%;
+.photo .photo-box1 img{
+    width: 50%;
+    height: 50%;
     padding: 10px;
-    height: 200px;
-    position: relative;
-    top: 30%;
-    left: 10%;
-
+    background-color: aqua;
 }
-.photo-box-graph .graph1 {
-    width: 90%;
-}
-.photo-box-leaflet{
-    width: 20%;
-    height: 200px;
-    padding: 12px;
-    position: relative;
-    top: 12%;
-    left: 17%;
-
-}
-.photo-box-leaflet .leaflet1 {
-    width: 80%;
+.photo .photo-box2 img{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    background-color: aqua;
 }
