@@ -81,8 +81,14 @@ main {
     display: flex;
     position: relative;
     top: 100px;
-    height: 720px;
+    height: 680px;
     background-color: rgb(0, 0, 230);
+}
+main h2 {
+    font-size:  30px;
+}
+main p {
+    font-size: 20px;
 }
 .photo {
     text-align: center;

@@ -88,6 +88,12 @@ main {
     height: 667px;
     background-color: blue;
 }
+main h2 {
+    font-size: 30px;
+}
+main p{
+    font-size: 20px;
+}
 .photo-box video{
     width: 60%;
     height: 50%;
