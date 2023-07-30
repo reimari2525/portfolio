@@ -59,28 +59,28 @@ img {
     height: auto;
 }
 main {
+    width: 100%;
     display: flex;
     position: relative;
-    top: 100px;
+    top: 75px;
+    height: 667px;
+    background-color: blue;
 }
-.photo-box .uma{
-    width: 50%;
-    padding: 10px;
-    position: relative;
-    top: 10%;
-    left: 17%;
-}
-.photo-box .graph{
-    width: 70%;
+.photo-box-movie3m{
+    width: 30%;
+    height: 50%;
     padding: 10px;
     position: relative;
     top: 30%;
-    left: -20%;
+    left: 10%;
+    background-color: aqua;
 }
-.photo-box .leaflet{
-    width: 80%;
+.photo-box-motion{
+    width: 30%;
+    height: 50%;
     padding: 10px;
     position: relative;
-    top: 5%;
-    left: -45%;
+    top: 30%;
+    left: 30%;
+    background-color: green;
 }

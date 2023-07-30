@@ -4,13 +4,25 @@ body {
     box-sizing: border-box;
     background-color: yellow;
 }
-h1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:blue;
-    text-align: center;
+header {
+    position: fixed;
+    width: 100%;
+    padding: 2%;
+    background-color: gray;
+}
+header h2 {
+    max-width: fit-content;
+    margin: auto;
+}
+header nav ul {
+    display: flex;
+    margin-top: 5%;
+}
+header nav ul li{
+    max-width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    background-color: aqua;
 }
 ul {
     width: 100%;
@@ -18,7 +30,7 @@ ul {
     display: flex;
     background-color: black;
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
