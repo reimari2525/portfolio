@@ -69,5 +69,6 @@ img {
     height: auto;
 }
 h1 {
+    color: rgb(0, 50, 160);
     font-size: 80px;
 }
